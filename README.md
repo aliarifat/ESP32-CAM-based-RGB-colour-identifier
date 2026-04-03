@@ -124,6 +124,32 @@ source venv/bin/activate
 pip install opencv-python numpy urllib3
 
 
+---
+### How does the color detection work
+- Step 1: Convert Image to HSV
+- Step 2: Apply Color Masks
+- Step 3: Clean Image  
+- Step 4: Detect Contours 
+- Step 5: Filter Objects
+- Step 5: Filter Objects
+- Step 6: Track Object
+
+
+---
+
+
+
+### Output
+- Real-time video window
+- Detected colors labeled
+- Center points marked 
+
+---
+
+
+
+
+
 ### Test
 <img width="1064" height="938" alt="Screenshot 2025-01-29 190338" src="https://github.com/user-attachments/assets/3f9eb59b-a208-456e-9768-31d825dbaa59" />
 <img width="978" height="921" alt="Screenshot 2025-01-29 190717" src="https://github.com/user-attachments/assets/5af2063a-87d0-48db-ac52-cb8afcff6ff6" />
